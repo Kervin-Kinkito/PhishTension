@@ -1,0 +1,40 @@
+#body{
+    width: 300px;
+    font-family: 'Google Sans', sans-serif;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    background-image: linear-gradient(to top, white, #bdc3c7);
+}
+#url{
+    overflow-x: auto;
+    display: flex;
+    text-align: center;
+    font-size: 3vw;
+}
+.url{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 3px solid black;
+    padding: 10px;
+}
+#button{
+    font-family: 'Google Sans';
+    width: 100%;
+}
+table{
+    table-layout: auto;
+    width: 100%;
+}
+.col1{
+    width: 80%;
+}
+.col2{
+    text-align: center;
+    vertical-align: middle;
+}
+/* td{
+    text-align: center;
+    vertical-align: middle;
+} */
