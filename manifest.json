@@ -1,0 +1,32 @@
+{
+  "manifest_version": 3,
+  "name": "PhishTension",
+  "version": "1.0",
+  "description": "Senior Project for BS CpE. This extension is using manifest_version 3",
+  "icons": {
+    "16": "icons/logo2.png",
+    "32": "icons/logo2.png",
+    "48": "icons/logo2.png",
+    "128": "icons/logo2.png"
+  },
+  "permissions": [
+    "activeTab",
+    "storage"
+  ],
+  "host_permissions": [
+    "*://*/*"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_title": "PhishTension",
+    "default_popup": "popup.html",
+    "default_icon": {              
+      "16": "icons/logo2.png",
+      "32": "icons/logo2.png",
+      "48": "icons/logo2.png",
+      "128": "icons/logo2.png" 
+    }
+  }
+}

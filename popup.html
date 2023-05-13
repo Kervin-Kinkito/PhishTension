@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Google+Sans&display=swap"> 
+    <link rel="stylesheet" href="popup.css">
+    <script src="popup.js"></script>
+    <meta charset="utf-8">
+    <title>PhishTension</title>
+  </head>
+  <body id=body>
+      <div class="top"> 
+        <div><img src="icons/logo2.png" style="width: 50px"></div>
+        <h2 class="title">PhishTension</h2>
+        <div>
+          <a href="#" id="inf-button"><img src="icons/inf.png" style="width: 20px"></a>
+          <div class="popup" id="popup">
+            <p>PhishTension is a browser extension that checks URLs that the user is currently viewing to see if they are phishing sites. It was developed to help users protect themselves from scam attacks by finding URLs that are used to trick people.</p>
+            <p>Phishing attacks are a common type of online fraud in which attackers trick users into clicking on legitimate links that lead to fake websites meant to steal sensitive information like login credentials or credit card numbers.</p>
+            <br>
+            <p>If you have any questions or concerns, please contact the following researchers: </p>
+            <ul>
+              <li>• Jackie Louwen Cestina, jackielouwen@gmail.com</li>
+              <li>• Kervin Kent Kinkito, kervinkinkito@gmail.com</li>
+              <li>• Gloria Mikaela Paredes, gmikaelavp@gmail.com</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="url">
+        <p id="url"></p>
+      </div>
+      <br>
+      <div class="button-container">
+      <button id='button'>Toggle Features</button>
+      </div>
+      <br>
+      <div id=resultList>
+      </div>
+      <div>
+        <p id="status"></p>
+      </div>
+      <div id="resultdiv">
+      <p id="result"></p>
+      </div>
+      </div>
+      <div id="hiddenButton">
+        <p id="para" class="hidden">Submit this URL for further analysis?</p>
+        <button id="my-button" class="hidden" style="border: solid 1px; font-family: 'Google Sans', sans-serif; background-color: whitesmoke; color: black; padding: 10px 20px; border-radius: 5px; cursor: pointer;">Yes</button>
+      </div>
+  </body>
+</html>
