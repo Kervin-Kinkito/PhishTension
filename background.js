@@ -259,7 +259,7 @@ chrome.tabs.onActivated.addListener(tab => {
       // handle the error here
     });
     
-    console.log(`FTRS CHECK Sending URL to Flask app: ${url}`); // log the URL being sent to the Flask app
+    console.log(`RFC Sending URL to Flask app: ${url}`); // log the URL being sent to the Flask app
   });
 });
 
@@ -290,6 +290,6 @@ chrome.tabs.onUpdated.addListener((tabId, changeInfo, tab) => {
       // handle the error here
     });
 
-    console.log(`FTRS CHECK Sending URL to Flask app: ${url}`); // log the URL being sent to the Flask app
+    console.log(`RFC Sending URL to Flask app: ${url}`); // log the URL being sent to the Flask app
   }
 });
